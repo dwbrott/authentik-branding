@@ -2,11 +2,12 @@
 Register a new user for an Authentik OAuth2 application
 
 - Works with Authentik version 2025.8.3
+- Replace _brand_ in these instructions with a unique string for each brand you create
 
 ## Entry point
 This is the URL / Button on your website that starts the enrollment process
 ```
-   https://auth.domain.com/if/flow/brand-enrollment/?next=/
+   example: https://auth.domain.com/if/flow/brand-enrollment/?next=/
 ```
 
 ## Flows and Stages > Flows
@@ -65,7 +66,7 @@ Create or modify each stage for the _brand-enrollment_ Flow
 Authentik requires usernames, but if you don't want your users create their own username, you can create the username based on the email. Since you're working with brands, you should separate the email address by brand in case someone wants to register for more than one of your brands.  Mitigates co-mingling.
 
 * **Name** : set Username to brand-Email
-* **Expression**:
+* **Expression** _replace brand in expression with your unique string_
 ```
    if regex_match(context['prompt_data'].get('email'), '^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'):
      context['prompt_data']['username'] = "brand/" + context['prompt_data'].get('email')
