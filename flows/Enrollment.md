@@ -10,19 +10,17 @@ This is the URL / Button on your website that starts the enrollment process
 ```
 
 ## Flows and Stages > Flows
-Create the _ brand enrollment _ screen
+Create the _brand enrollment_ flow
 
 ### brand-enrollment
-Create or modify the  _ brand-enrollment _  Flow.
 
 <ins>Edit</ins>
-* ** Name ** : Register (or whatever you deem appropriate)
-* ** Title ** : Register for Brand
-* ** Slug ** : brand-enrollment (obviously, name it how it works for you)
-* ** Designation ** : Enrollment
-* ** Authentication ** : No Requirement
-* ** Behavior & Appearance ** to your liking
-
+* **Name** : Register (or whatever you deem appropriate)
+* **Title** : Register for Brand
+* **Slug** : brand-enrollment (obviously, name it how it works for you)
+* **Designation** : Enrollment
+* **Authentication** : No Requirement
+* **Behavior & Appearance** : to your liking
 
 <ins>Stage Bindings</ins>
 * 10 brand-source-enrollment-prompt  
