@@ -1,5 +1,5 @@
 # Enrollment Flow
-Register a new user for an Authentik OAuth2 application
+Register a new user for an Authentik application
 
 - Works with Authentik version 2025.8.3
 - Replace _brand_ in these instructions with a unique string for each brand you create
@@ -21,7 +21,7 @@ Create the _brand enrollment_ flow
 * **Slug** : brand-enrollment (obviously, name it how it works for you)
 * **Designation** : Enrollment
 * **Authentication** : No Requirement
-* **Behavior & Appearance** : to your liking
+* **Behavior Settings & Appearance Settings** : to your liking
 
 <ins>Stage Bindings</ins>
 * 10 brand-source-enrollment-prompt  
