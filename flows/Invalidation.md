@@ -1,5 +1,5 @@
 # Invalidation Flow
-Login via an Authentik application
+Logout of an Authentik application
 
 - Works with Authentik version 2025.8.3
 - Replace _brand_ in these instructions with a unique string for each brand you create
@@ -9,7 +9,7 @@ Login via an Authentik application
 ### brand-invalidation-flow
 
 <ins>Edit</ins>
-* **Name** : Logout (or whatever you deem appropriate)
+* **Name** : Logout
 * **Title** : Log out of Brand
 * **Slug** : brand-invalidation-flow
 * **Designation** : Invalidation

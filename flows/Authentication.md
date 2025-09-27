@@ -9,7 +9,7 @@ Login via an Authentik application
 ### brand-authentication-flow
 
 <ins>Edit</ins>
-* **Name** : Login (or whatever you deem appropriate)
+* **Name** : Login
 * **Title** : Welcome to Brand
 * **Slug** : brand-authentication-flow
 * **Designation** : Authentication

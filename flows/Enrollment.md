@@ -13,12 +13,12 @@ This is the URL / Button on your website that starts the enrollment process
 ## Flows and Stages > Flows
 Create the _brand enrollment_ flow
 
-### brand-enrollment
+### brand-enrollment-flow
 
 <ins>Edit</ins>
-* **Name** : Register (or whatever you deem appropriate)
+* **Name** : Register
 * **Title** : Register for Brand
-* **Slug** : brand-enrollment (obviously, name it how it works for you)
+* **Slug** : brand-enrollment-flow (obviously, name it how it works for you)
 * **Designation** : Enrollment
 * **Authentication** : No Requirement
 * **Behavior Settings & Appearance Settings** : to your liking

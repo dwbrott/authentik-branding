@@ -32,11 +32,11 @@ This section will show you how to create a new brand in Authentik.  You will nee
 * **Default application** : Choose application for your brand
 
 ### Default flows
-* **Enrollment flow** : [brand-enrollment](flows/Enrollment.md)
+* **Enrollment flow** : [brand-enrollment-flow](flows/Enrollment.md)
   * _This is not listed in the brand settings section but is an important piece of the puzzle_
 * **Authentication flow** : [brand-authentication-flow](flows/Authentication.md)
 * **Invalidation flow** : [brand-authentication-flow](flows/Invalidation.md)
-* **Recovery flow** : [brand-recovery](flows/Recovery.md)
+* **Recovery flow** : [brand-recovery-flow](flows/Recovery.md)
 * **Unenrollment flow** : _Not used in this example_
 * **Device code flow** : _Not used in this example_
 
