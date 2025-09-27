@@ -41,4 +41,7 @@ This section will show you how to create a new brand in Authentik.  You will nee
 * **Device code flow** : _Not used in this example_
 
 ### Other global settings
-* _Not changes in this example_
+* _No changes in this example_
+
+# Mimedefang
+Install / Configure [mimedefang](Mimedefang.md) to rewrite the sender address of your messages to match you brand.  This will make the experience more enjoyable for everyone.
