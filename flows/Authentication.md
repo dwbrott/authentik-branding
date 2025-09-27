@@ -22,7 +22,7 @@ Login via an Authentik application
 * 30 default-authentication-login
 
 ## Flows and Stages > Stages
-Create or modify each stage for the _brand-enrollment-flow_ Flow
+Create or modify each stage for the _brand-authentication-flow_ Flow
 
 
 1. ### brand-authentication-identification

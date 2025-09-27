@@ -7,9 +7,13 @@ A set of README providing hints on how to manage brands on your Authentik instan
 ## Goal of this document
 * Provide a basic cheat sheet for setting up one or more Authentik brands
 * Customize look and feel of all elements, including e-mail messages
+* _Note: This documentation is very basic and is not intended to provide every option available in Authentik_
 
 ## Assumptions
 * Authentik instance and e-mail server are both available for customization
+
+# Create your brand in Authentik
+This section will show you how to create a new brand in Authentik.  You will need to first make sure you have created an Application that will be used to autheticate your users as your flows will link to that application.
 
 ## System > Brands
 
